@@ -1,0 +1,20 @@
+{
+  "name": "slideshow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "watch": "parcel watch index.html",
+    "start": "parcel index.html",
+    "heroku-postbuild": "echo Skip build on Heroku"
+  },
+  "author": "Matheus Barone <matheusvbarone@gmail.com> (http://matheusbarone.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@heroku/update-node-build-script": "^1.0.3",
+    "express": "^4.16.4",
+    "parcel-bundler": "^1.12.3"
+  },
+  "heroku-run-build-script": true
+}
